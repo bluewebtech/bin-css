@@ -1,0 +1,23 @@
+{
+  "name": "bin-css",
+  "version": "1.0.0",
+  "description": "Simple and customizable CSS framework that does what it is told",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluewebtech/bin-css.git"
+  },
+  "author": "Peter Morrison",
+  "license": "MIT",
+  "keywords": [
+    "CSS",
+    "SASS"
+  ],
+  "bugs": {
+    "url": "https://github.com/bluewebtech/bin-css/issues"
+  },
+  "homepage": "https://github.com/bluewebtech/bin-css#readme"
+}
