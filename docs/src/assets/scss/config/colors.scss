@@ -1,0 +1,71 @@
+.primary {
+  background: $primary;
+  color: $white;
+  &:hover {
+    background: $primary-hover;
+  }
+}
+
+.secondary {
+  background: $secondary;
+  color: $white;
+  &:hover {
+    background: $secondary-hover;
+  }
+}
+
+.success {
+  background: $success;
+  color: $white;
+  &:hover {
+    background: $success-hover;
+  }
+}
+
+.danger {
+  background: $danger;
+  color: $white;
+  &:hover {
+    background: $danger-hover;
+  }
+}
+
+.warning {
+  background: $warning;
+  color: $grey;
+  &:hover {
+    background: $warning-hover;
+  }
+}
+
+.caution {
+  background: $caution;
+  color: $white;
+  &:hover {
+    background: $caution-hover;
+  }
+}
+
+.notice {
+  background: $notice;
+  color: $grey;
+  &:hover {
+    background: $notice-hover;
+  }
+}
+
+.power {
+  background: $power;
+  color: $white;
+  &:hover {
+    background: $power-hover;
+  }
+}
+
+.sweet {
+  background: $sweet;
+  color: $white;
+  &:hover {
+    background: $sweet-hover;
+  }
+}

@@ -1,0 +1,62 @@
+.button {
+  padding: 12px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  font-weight: 300;
+  cursor: pointer;
+  @include rounded-corner;
+  @include background-transition;
+
+  &:hover {
+    border: 1px solid #666666;
+  }
+
+  &.primary,
+  &.secondary,
+  &.success,
+  &.danger,
+  &.warning,
+  &.caution,
+  &.notice,
+  &.power,
+  &.sweet {
+    border: none;
+  }
+
+  &.xsmall {
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  &.small {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  &.medium {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  &.large {
+    padding: 17px;
+    font-size: 17px;
+  }
+
+  &.xlarge {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  &.rounded {
+    padding-left: 15px;
+    padding-right: 15px;
+    @include rounded-corner(50px);
+  }
+
+  &.border {
+    &.primary {
+      border: 1px solid $primary-border;
+    }
+  }
+}

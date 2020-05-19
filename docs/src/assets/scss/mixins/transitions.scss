@@ -1,0 +1,27 @@
+@mixin background-transition($value: 0.2s) {
+  -webkit-transition: background $value ease-in-out;
+  -moz-transition: background $value ease-in-out;
+  -o-transition: background $value ease-in-out;
+  transition: background $value ease-in-out;
+}
+
+@mixin border-transition($value: 0.2s) {
+  -webkit-transition: border $value ease-in-out;
+  -moz-transition: border $value ease-in-out;
+  -o-transition: border $value ease-in-out;
+  transition: border $value ease-in-out;
+}
+
+@mixin box-shadow-transition($value: 0.2s) {
+  -webkit-transition: box-shadow $value ease-in-out;
+  -moz-transition: box-shadow $value ease-in-out;
+  -o-transition: box-shadow $value ease-in-out;
+  transition: box-shadow $value ease-in-out;
+}
+
+@mixin color-transition($value: 0.2s) {
+  -webkit-transition: color $value ease-in-out;
+  -moz-transition: color $value ease-in-out;
+  -o-transition: color $value ease-in-out;
+  transition: color $value ease-in-out;
+}

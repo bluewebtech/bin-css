@@ -1,0 +1,30 @@
+/**
+ * Colors
+ */
+$primary: #4489e3;
+$primary-hover: #3879cf;
+$primary-border: #2861ad;
+$secondary: #5f5a6b;
+$secondary-hover: #504c59;
+$success: #06b838;
+$success-hover: #07a333;
+$danger: #f70f0f;
+$danger-hover: #db0d0d;
+$warning: #fae11b;
+$warning-hover: #f2da18;
+$caution: #ffa200;
+$caution-hover: #ed9907;
+$notice: #e3e3e3;
+$notice-hover: #d1d1d1;
+$power: #7514c9;
+$power-hover: #5b109e;
+$sweet: #ff94f1;
+$sweet-hover: #e677d7;
+
+$black: #000000;
+$grey: #333333;
+$white: #ffffff;
+
+@import 'mixins/all';
+@import 'config/all';
+@import 'elements/all';
