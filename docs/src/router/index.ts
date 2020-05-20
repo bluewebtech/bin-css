@@ -1,25 +1,30 @@
-import Vue from 'vue'
-import VueRouter, { RouteConfig } from 'vue-router'
+import Vue from 'vue';
+import VueRouter, { RouteConfig } from 'vue-router';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-  const routes: Array<RouteConfig> = [
+const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "Home" */ '../views/Home.vue')
+    component: () => import(/* webpackChunkName: "Home" */ '../views/Home.vue'),
   },
   {
     path: '/buttons',
     name: 'Buttons',
-    component: () => import(/* webpackChunkName: "buttons" */ '../views/Buttons.vue')
-  }
-]
+    component: () => import(/* webpackChunkName: "buttons" */ '../views/Buttons.vue'),
+  },
+  {
+    path: '/grid',
+    name: 'Grid',
+    component: () => import(/* webpackChunkName: "grid" */ '../views/Grid.vue'),
+  },
+];
 
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;

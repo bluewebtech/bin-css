@@ -1,0 +1,97 @@
+.columns {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid purple;
+}
+
+.column {
+  margin: 10px;
+  padding: 15px;
+  display: block;
+  flex-grow: 1;
+  text-align: center;
+  border: 1px solid pink;
+
+  &.three-quarters {
+    flex: none;
+    width: 75%;
+  }
+
+  &.half {
+    flex: none;
+    width: 50%;
+  }
+
+  &.one-quarter {
+    flex: none;
+    width: 25%;
+  }
+
+  &.one-eighth {
+    flex: none;
+    width: 12.5%;
+  }
+
+  &.hundred {
+    flex: none;
+    width: 100%;
+  }
+
+  &.ninety {
+    flex: none;
+    width: 90%;
+  }
+
+  &.eighty {
+    flex: none;
+    width: 80%;
+  }
+
+  &.seventy {
+    flex: none;
+    width: 70%;
+  }
+
+  &.sixty {
+    flex: none;
+    width: 60%;
+  }
+
+  &.fifty {
+    flex: none;
+    width: 50%;
+  }
+
+  &.forty {
+    flex: none;
+    width: 40%;
+  }
+
+  &.thirty {
+    flex: none;
+    width: 30%;
+  }
+
+  &.twenty {
+    flex: none;
+    width: 20%;
+  }
+
+  &.ten {
+    flex: none;
+    width: 10%;
+  }
+
+  &.slim {
+    flex: none;
+  }
+
+  @media only screen and (max-width: 1350px) {
+    &.ninety {
+      width: auto;
+    }
+  }
+}

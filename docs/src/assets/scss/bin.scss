@@ -25,6 +25,16 @@ $black: #000000;
 $grey: #333333;
 $white: #ffffff;
 
+$primary-font: 'Helvetica';
+$secondary-font: 'Arial';
+
+* {
+  font-family: $primary-font;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 @import 'mixins/all';
 @import 'config/all';
 @import 'elements/all';
+@import 'layouts/all';
